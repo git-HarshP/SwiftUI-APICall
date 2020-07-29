@@ -16,7 +16,6 @@ struct CountryCell: View {
         VStack {
             Text(countryName)
                 .font(.custom("Futura", size: 16))
-//                .foregroundColor(Color.black)
                 .padding([.top, .bottom], 8)
                 .padding([.leading, .trailing], 16)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -24,7 +23,6 @@ struct CountryCell: View {
         .background(Color(UIColor.systemBackground))
         .cornerRadius(4)
         .shadow(color: .secondary, radius: 2, x: 0, y: 2)
-//        .padding([.leading, .trailing], 16)
     }
 }
 
